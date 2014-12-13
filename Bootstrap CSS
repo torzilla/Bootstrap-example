@@ -1,0 +1,26 @@
+
+
+
+/* Title */
+
+.title h1{
+	color: #1919FF;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-size: 7vw;
+}
+
+/* Headings */
+
+h4 {
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-size: 5vh;
+}
+
+h2, h3 {
+	font-family: 'Droid Serif', serif;
+	color: #4C4C4C;
+}
+
+
