@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap Example Page</title>
+	<meta name="author" content="Tor Rydberg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrapEXCSS.css">
+	<script type="text/javascript" src="js/JQsource.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lobster|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+</head>	
+s
+<body>
+<div class="container">
+	<header class="page-header">
+		<div class="row responsive">
+		
+			<div class="col-md-2">
+				<button class="btn btn-primary" type="button" data-toggle="dropdown">Sports <span class="caret"></span></button>
+					<ul class="dropdown dropdown-menu">
+					<li><a href="https://www.youtube.com/watch?v=_Cp-L6HdxWo" target="_blank">Skate</a></li>
+					<li><a href="https://www.youtube.com/watch?v=kh29_SERH0Y" target="_blank">Snow</a></li>
+					<li><a href="https://www.youtube.com/watch?v=WUO-lPubXeI" target="_blank">Cars</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-8 text-center text-uppercase title"><h1>Bootstrap</h1></div>
+			<div class="col-md-2">
+				<button class="btn btn-primary" type="button" data-toggle="dropdown">Tech <span class="caret"></span></button>
+					<ul class=" dropdown dropdown-menu ">
+						<li><a href="http://www.reddit.com/" target="_blank">Internet</a></li>
+						<li><a href="http://gizmodo.com/" target="_blank">Tech</a></li>
+						<li><a href="http://gabrielecirulli.github.io/2048/" target="_blank">2048</a></li>
+					</ul>
+			</div>
+		</div>
+	</header>
+	
+	<div class="row text-center">
+			<!-- Main Story -->
+			<div class="col-md-9 main"><img src="http://lorempixel.com/800/526/" alt="place holder image" title="place holder image">
+				<div class="title">
+					<h2>This is a page I made with Bootstrap</h2>
+					<p><a href="http://lorempixel.com/" target="_blank">lorempixel.com</a> and <a href="http://baconipsum.com/" target="blank">baconipsum.com</a> also helped</p>
+				</div>
+			</div>	
+			<div class="col-md-3"><img src="http://lorempixel.com/280/280/" alt="place holder image" title="place holder image">
+				<img src="http://lorempixel.com/280/280" alt="place holder image" title="place holder image">
+			</div>
+	</div>
+		<div class="row">
+			<!--Left Side Section -->
+			<div class="col-md-3 left">
+				<div class="row text-center">
+					<img class="img-circle" src="http://lorempixel.com/163/163" alt="place holder image" title="place holder image">
+					<h2>Salami</h2>
+					<h3>Tri-tip</h3>
+					<p>pork loin filet mignon short ribs</p>
+				</div>
+				<div class="row text-center">
+					<img class="square" src="http://lorempixel.com/g/200/163" alt="place holder image" title="place holder image">
+					<h2>Fatback</h2>
+					<h3>sirloin kevin</h3>
+					<p>Tenderloin leberkas short ribs</p>
+				</div>
+				<div class="row text-center">
+					<img class="img-circle" src="http://lorempixel.com/163/163/sports/" alt="place holder image" title="place holder image">
+					<h2>Bresaola</h2>
+					<h3>Hamburger sirloin</h3>
+					<p> turkey ham hock t-bone</p>
+				</div>
+				<div class="row text-center">
+					<img class="square" src="http://lorempixel.com/200/163/sports/" alt="place holder image" title="place holder image">
+					<h2>Drumstick</h2>
+					<h3>Frankfurter</h3>
+					<p>beef ribs ham brisket tenderloin</p>
+				</div>
+				<div class="row text-center">
+					
+					<h4>Pork chop</h4>
+					<h4>Ribeye</h4>
+					<h4>Meatball</h4>
+				</div>
+			</div>
+			
+			<!-- Middle Section -->
+			<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Porchetta cupidatat</h3>
+							<p class="">Porchetta cupidatat nostrud ball tip tail cow. Biltong cupidatat ea, ribeye beef boudin tongue. Kevin short ribs aute meatball eiusmod. Ball tip dolore ham culpa nostrud exercitation short ribs aliqua incididunt nulla.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/163/163/sports/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Drumstick in bacon</h3>
+							<p class="">Drumstick in bacon velit, ham adipisicing filet mignon deserunt kielbasa turkey strip steak ribeye anim. Pancetta chuck ut quis pastrami, shoulder beef ribs biltong do doner dolore in labore tongue.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/163/163/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Bacon</h3>
+							<p class="">Bacon dolore mollit quis short ribs beef. Officia rump pork chop dolor. Aliqua ut sirloin non brisket anim, duis salami. Dolore hamburger nisi aute magna sed.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/g/163/163/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Short loin</h3>
+							<p class="">Short loin capicola dolore, turkey sint quis aliquip shank aute pig bacon beef ribs irure frankfurter. Beef dolore incididunt ex. Corned beef in pig id.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/163/163/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Sirloin brisket</h3>
+							<p class="">Sirloin brisket, rump tempor ham hock voluptate sed jowl boudin magna frankfurter cillum cupidatat. Spare ribs elit bacon, enim beef ribs quis pariatur. Pastrami prosciutto corned beef turducken.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/163/163/sports/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Aliquip laborum minim</h3>
+							<p class="">Aliquip laborum minim, esse ad aliqua leberkas nisi. Dolor officia ut, nisi shoulder frankfurter sed voluptate kevin strip steak in deserunt. Dolore dolore ball tip proident. Aute sint shoulder consectetur occaecat swine.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/163/163/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 mid-text">
+							<h3>Ullamco tongue ball</h3>
+							<p class="">Ullamco tongue ball tip turkey brisket. Short ribs ball tip corned beef, ribeye excepteur sirloin tail capicola spare ribs esse landjaeger ad sausage. </p>
+						</div>
+						<div class="col-md-4">
+							<img class="thumbnail" src="http://lorempixel.com/g/163/163/" alt="place holder image" title="place holder image">
+						</div>
+					</div>
+				</div>
+			
+			<!--Right Side Section -->
+			<div class="col-md-3 right">
+				<img src="http://lorempixel.com/g/280/163/" alt="place holder image" title="place holder image">
+				<img src="http://lorempixel.com/280/163/" alt="place holder image" title="place holder image">
+				<img src="http://lorempixel.com/g/280/163/" alt="place holder image" title="place holder image">
+				<img src="http://lorempixel.com/280/163/" alt="place holder image" title="place holder image">
+				<img src="http://lorempixel.com/g/280/163/" alt="place holder image" title="place holder image">
+			</div>
+		</div>
+</div>
+</body>														
+</html>
